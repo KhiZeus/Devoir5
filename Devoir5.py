@@ -74,3 +74,5 @@ plt.savefig('population_categories_comparatif.pdf')
 plt.pause(3)
 plt.close()
 plt.clf()
+#Enregistrement de la data frame dans un fichier csv
+data_municipal.to_csv('municipalites_categoriser.csv')
